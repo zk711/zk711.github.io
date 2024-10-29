@@ -1,0 +1,98 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="websie icon" type="png"
+     href="logo-modified (1).png">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <h1>ZK library</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">tentang</a></li>
+            <li><a href="#books">buku</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </div>
+
+
+    <div id="about" class="">
+        <h2> tentang ZK library</h2>
+        <p>perpustakaan sederhana ini meyediakan berbagai koleksi buku untuk dibaca dan dipinjam<br>kami berkomitmen
+         untuk meningkatkan minat baca masyarakat</p>
+    </div>
+
+
+
+
+    <!-- Konten Buku -->
+    <div id="books" class="book-container">
+        <div class="book">
+            <img src="R.jpg" alt="Buku 1">
+            <h3>laskar pelangi</h3>
+            <p>Pengarang: andrea hirata</p>
+        </div>
+        <div class="book">
+            <img src="1398034.jpg" alt="Buku 2">
+            <h3>bumi manusia</h3>
+            <p>Pengarang: pramoedya ananta</p>
+        </div>
+        <div class="book">
+            <img src="OIP.jpg" alt="Buku 3">
+            <h3>filosofi teras</h3>
+            <p>Pengarang: henry manampiring</p>
+        </div>
+        <div class="book">
+            <img src="9878fd54d15fa4de993ab1ba28ad8c60.jpg" alt="Buku 4">
+            <h3>atomic habits</h3>
+            <p>Pengarang: james clear
+            </p>
+        </div>
+        <div class="book">
+            <img src="a2c298d203c152119de5c2a99489b8ca.jpg" alt="Buku 5">
+            <h3>the bridge home</h3>
+            <p>Pengarang: padma venkatraman</p>
+        </div>
+        <div class="book">
+            <img src="Paulo-Coelho-The-alchemist-cover.png" alt="Buku 6">
+            <h3>the alchemist</h3>
+            <p>Pengarang: paulo coelho</p>
+        </div>
+        <div class="book">
+            <img src="moneyyy.jpg" alt="Buku 7">
+            <h3>the Psychology of Money </h3>
+            <p>Pengarang: morgan housel</p>
+        </div>
+        <div class="book">
+            <img src="warrrrrr.jpg" alt="Buku 8">
+            <h3>THE ART OF WAR</h3>
+            <p>Pengarang: Sun Zi</p>
+       
+    </div>
+
+    <div id="contact" class="none">
+        <h2> kontak</h2>
+        <p>kontak : +62 781-610-7652</p>
+    </div>
+    
+    <section>copyrigh © 2024 - zack</section>
+   
+
+    <!-- JavaScript untuk smooth scroll -->
+    <script>
+        document.querySelectorAll('.navbar a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body></html>

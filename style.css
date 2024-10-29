@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 190);
+   
+}
+
+.navbar {
+    background-color: #1a6d28;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(212, 175, 7);
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: rgb(212, 175, 7);
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+    
+
+/* Style untuk Konten Buku */
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.book {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.book img {
+    width: 100px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.book h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.book p {
+    font-size: 14px;
+    color: #555;
+}
