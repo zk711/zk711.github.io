@@ -41,7 +41,16 @@ body {
     text-decoration: underline;
 }
 
-
+.container{
+    background-color: white;
+    padding: 8px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
     
 
 /* Style untuk Konten Buku */
